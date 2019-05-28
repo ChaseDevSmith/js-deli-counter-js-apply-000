@@ -38,4 +38,11 @@ outputString = outputString + “, ” + (i+1) + “. ” + line[i];
 }
 return outputString;
 }
+function giveANumber(line){
+  var counter = 0
+  (i)
+}
+
+
+
 
