@@ -40,7 +40,9 @@ return outputString;
 }
 function giveANumber(line){
   var counter = 0
-  counter++
+  counter++ 
+  line.push(counter)
+  
 }
 
 
