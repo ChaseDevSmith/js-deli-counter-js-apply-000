@@ -28,11 +28,8 @@ function currentLine(line){
     outputString = "The line is currently: "
     for(var i = 0; i<line.length ; i++){
       if (i === 0){
-        
-        
-  outputString = outputString + (i+1) + “. ” + line[i];
+    outputString = outputString + (i+1) + “. ” + line[i];
 }
-
 
 else{
 outputString = outputString + “, ” + (i+1) + “. ” + line[i];
